@@ -24,7 +24,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > > ------- | -----------
 > > `pwd` | show current working directory path
 > > `mkdir <directory>` | creating a directory
-> > `rmdir <directory>`	| deleting a directory
+> > `rmd -rf <directory>`	| deleting a directory and all files in the directory with no prompting
 > > `touch <filename>` | creating a file using `touch` command
 > > `rm <file>`	| deleting a file
 > > `mv <oldfilename> <newfilename>` | renaming a file
