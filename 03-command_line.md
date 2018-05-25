@@ -20,18 +20,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > First Header | Second Header
-> > ------------ | -------------
+> > Command | Description
+> > ------- | -----------
 > > `pwd` | show current working directory path
-> > `mkdir <directory>`	creating a directory
-> > `rmdir <directory>`	deleting a directory
-> > `touch <filename>`	creating a file using `touch` command
-> > `rm <file>`		deleting a file
-> > `mv <oldfilename> <newfilename>`	renaming a file
-> > `ls -a`	      	listing hidden files
-> > `cp <olddirectory/filename> <newdirectory/filename>`	copying a file from one directory to another
-> > `mv <olddirectory/*.jpg> <newdirectory>`			move all jpeg files from one directory to another
-> > `chmod <permissions> <path>		change permissions of a file or directory
+> > `mkdir <directory>` | creating a directory
+> > `rmdir <directory>`	| deleting a directory
+> > `touch <filename>` | creating a file using `touch` command
+> > `rm <file>`	| deleting a file
+> > `mv <oldfilename> <newfilename>` | renaming a file
+> > `ls -a` | listing hidden files
+> > `cp <olddirectory/filename> <newdirectory/filename>` | copying a file from one directory to another
+> > `mv <olddirectory/*.jpg> <newdirectory>` | move all jpeg files from one directory to another
+> > `chmod <permissions> <path>	| change permissions of a file or directory
 ---
 
 ### Q2.  List Files in Unix   
@@ -45,10 +45,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > `ls`   list files
-> > `ls -a`	list hidden files
-> > `ls -l` list file permissions
-> > `ls -lh`
+> > Command | Description
+> > ------- | -----------
+> > `ls` | list files
+> > `ls -a` | list hidden files
+> > `ls -l` |  list file permissions
+> > `ls -lh` | list file permissions with unit suffixes for the size of files
+> > `ls -lah` | list permissions with unit suffixes for files and directory entries whose names begin with a dot
+> > `ls -t` | list files sorted by time modified (most recently modified first)
+> > `ls -Glp` | list file permissions with a slash after each filename that is a directory. In addition, colorized output is enabled.
 
 ---
 
@@ -56,7 +61,13 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > Command | Description
+> > ------- | -----------
+> > `ls -1` | list files with each file on it's own line
+> > `ls -d` | list only directories
+> > `ls -r` | list files in reverse order
+> > `ls -ltr` | list files in long form sorted by oldest file first
+> > `ls -m` | list files as a comma separated list
 
 ---
 
@@ -64,7 +75,11 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs reads data from standard input and executes the command (supplied to it as an argument) based on the input read. The following example can be used to find specific files in the current directory:
+
+> > `xargs find . -name`
+
+> > If the user types in `*.txt` as the input, all of the text files will be displayed.
 
  
 
