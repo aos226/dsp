@@ -77,9 +77,7 @@ What does `xargs` do? Give an example of how to use it.
 
 > > xargs reads data from standard input and executes the command (supplied to it as an argument) based on the input read. The following example can be used to find specific files in the current directory:
 
-> >  ```bash
-$ xargs find . -name
-```
+> >     $ xargs find . -name
 
 > > If the user types in `*.txt` as the input, all of the text files will be displayed. 
 
