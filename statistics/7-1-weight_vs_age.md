@@ -4,7 +4,9 @@
 
 ![](https://github.com/aos226/dsp/blob/master/img/exercise7_1_scatter.jpg)
 
-![](img/exercise7_1_percentiles.jpg?raw=true)
+![](https://github.com/aos226/dsp/blob/master/img/exercise7_1_percentiles.jpg)
+
+Below is the code.
 
 ```python
 import nsfg
