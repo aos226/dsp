@@ -107,7 +107,7 @@ How do frequentist and Bayesian statistics compare?
 
 >> Frequentist statistics views data as a repeatable random variable with a specific frequency/probability (which is defined by the relative frequency of the event as the number of trials approaches infinity). The underlying parameters and probabilities remain constant during this process. Bayesian statistics uses a prior distribution of what you think the frequency/probability is and uses observed data to then update this distribution and update the probabilities. Unlike in frequentist statistics, the frequency/probability does not necessarily remain constant.
 
-In frequentist statistics, one creates confidence intervals where one talks about the probability that the interval contains the true parameter. In Bayesian statistics, one creates credible intervals where one talks about the probability that the parameter is inside the interval.
+>> In frequentist statistics, one creates confidence intervals where one talks about the probability that the interval contains the true parameter. In Bayesian statistics, one creates credible intervals where one talks about the probability that the parameter is inside the interval.
 
 ---
 
